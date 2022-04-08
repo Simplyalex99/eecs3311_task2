@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-08T00:20:43.271Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="J4QzlQMgxgk6RRHE67Sb" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-08T15:35:59.853Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="qOK51ie3d4OXtRIEpKOa" version="17.4.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1011" dy="1866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15,62 +15,64 @@
         <mxCell id="QLYUS5u9AqIpMMQaiVgh-8" value="+ Address(address:AddressBuilder)&#xa;+ getCountry():String&#xa;+getCity():String&#xa;+getPostalcode():String&#xa;+getAddress():String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="QLYUS5u9AqIpMMQaiVgh-4" vertex="1">
           <mxGeometry y="90" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jwYuk6uSL-QfzdL34a9w-0" value="AddressBuilder" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="jwYuk6uSL-QfzdL34a9w-0" value="AddressBuilder" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="20" y="-1130" width="350" height="340" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jwYuk6uSL-QfzdL34a9w-1" value="- country: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jwYuk6uSL-QfzdL34a9w-0">
+        <mxCell id="jwYuk6uSL-QfzdL34a9w-1" value="- country: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jwYuk6uSL-QfzdL34a9w-0" vertex="1">
           <mxGeometry y="26" width="350" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="jwYuk6uSL-QfzdL34a9w-2" value="- city: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="jwYuk6uSL-QfzdL34a9w-0">
+        <mxCell id="jwYuk6uSL-QfzdL34a9w-2" value="- city: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="jwYuk6uSL-QfzdL34a9w-0" vertex="1">
           <mxGeometry y="52" width="350" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="jwYuk6uSL-QfzdL34a9w-3" value="- postalcode:String&#xa; - address: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="jwYuk6uSL-QfzdL34a9w-0">
+        <mxCell id="jwYuk6uSL-QfzdL34a9w-3" value="- postalcode:String&#xa; - address: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="jwYuk6uSL-QfzdL34a9w-0" vertex="1">
           <mxGeometry y="78" width="350" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="jwYuk6uSL-QfzdL34a9w-4" value="&#xa;+AddressBuilder(city:String,country:String):AddressBuilder&#xa;+ setCountry(country:String):AddressBuilder&#xa;+setCity(city:String):AddressBuilder&#xa;+ setPostalcode(postalcode:String):AddressBuilder&#xa;+setAddress(address:String):AddressBuilder&#xa;+ build():Address&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="jwYuk6uSL-QfzdL34a9w-0">
+        <mxCell id="jwYuk6uSL-QfzdL34a9w-4" value="&#xa;+AddressBuilder(city:String,country:String):AddressBuilder&#xa;+ setCountry(country:String):AddressBuilder&#xa;+setCity(city:String):AddressBuilder&#xa;+ setPostalcode(postalcode:String):AddressBuilder&#xa;+setAddress(address:String):AddressBuilder&#xa;+ build():Address&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="jwYuk6uSL-QfzdL34a9w-0" vertex="1">
           <mxGeometry y="130" width="350" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="jwYuk6uSL-QfzdL34a9w-5" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=-0.007;exitY=0.075;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QLYUS5u9AqIpMMQaiVgh-8" target="jwYuk6uSL-QfzdL34a9w-3">
+        <mxCell id="jwYuk6uSL-QfzdL34a9w-5" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=-0.007;exitY=0.075;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QLYUS5u9AqIpMMQaiVgh-8" target="jwYuk6uSL-QfzdL34a9w-3" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="300" y="-1050" as="sourcePoint" />
             <mxPoint x="370" y="-1020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jwYuk6uSL-QfzdL34a9w-6" value="Item" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="460" y="-770" width="280" height="222" as="geometry">
+        <mxCell id="jwYuk6uSL-QfzdL34a9w-6" value="Item" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="460" y="-770" width="280" height="340" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jwYuk6uSL-QfzdL34a9w-7" value="- country:String&#xa;- city:String&#xa;- postalcode:String&#xa;- address:String&#xa;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jwYuk6uSL-QfzdL34a9w-6">
-          <mxGeometry y="26" width="280" height="64" as="geometry" />
+        <mxCell id="tRH-e0MG6XzU9dK8XGzT-0" value="&lt;span style=&quot;text-align: left&quot;&gt;- name: String&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;- description:String&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;- quantity: int&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;- price: double&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;- size: double&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;- salesprice: double&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;+ getName():String&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;+ getDescription():String&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;+ getQuantity():int&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;+ getPrice():double&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;+ getSize():double&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;+getSalePrice():double&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;+Item(builder:ItemBuilder):Item&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jwYuk6uSL-QfzdL34a9w-6">
+          <mxGeometry y="26" width="280" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="jwYuk6uSL-QfzdL34a9w-8" value="+ Address(address:AddressBuilder)&#xa;+ getCountry():String&#xa;+getCity():String&#xa;+getPostalcode():String&#xa;+getAddress():String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="jwYuk6uSL-QfzdL34a9w-6">
-          <mxGeometry y="90" width="280" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="jwYuk6uSL-QfzdL34a9w-9" value="ItemBuilder" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="jwYuk6uSL-QfzdL34a9w-9" value="ItemBuilder" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="20" y="-770" width="350" height="340" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jwYuk6uSL-QfzdL34a9w-10" value="- country: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jwYuk6uSL-QfzdL34a9w-9">
+        <mxCell id="jwYuk6uSL-QfzdL34a9w-10" value="- name: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jwYuk6uSL-QfzdL34a9w-9" vertex="1">
           <mxGeometry y="26" width="350" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="jwYuk6uSL-QfzdL34a9w-11" value="- city: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="jwYuk6uSL-QfzdL34a9w-9">
+        <mxCell id="jwYuk6uSL-QfzdL34a9w-11" value="- description:String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="jwYuk6uSL-QfzdL34a9w-9" vertex="1">
           <mxGeometry y="52" width="350" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="jwYuk6uSL-QfzdL34a9w-12" value="- postalcode:String&#xa; - address: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="jwYuk6uSL-QfzdL34a9w-9">
-          <mxGeometry y="78" width="350" height="52" as="geometry" />
+        <mxCell id="jwYuk6uSL-QfzdL34a9w-12" value="- quantity: int&#xa;- price: double&#xa;- size: double&#xa;- salesprice: double&#xa;&#xa;+ setName(name:String):ItemBuilder&#xa;+ setDescription(description: String):ItemBuilder&#xa;+ setQuantity(quantity:int):ItemBuilder&#xa;+ setPrice(price:double):ItemBuilder&#xa;+ setSize(size:double):ItemBuilder&#xa;+setSalePrice(price:double):ItemBuilder&#xa;+build():Item&#xa;+ItemBuilder(name:String,price:double):ItemBuilder" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="jwYuk6uSL-QfzdL34a9w-9" vertex="1">
+          <mxGeometry y="78" width="350" height="202" as="geometry" />
         </mxCell>
-        <mxCell id="jwYuk6uSL-QfzdL34a9w-13" value="&#xa;+AddressBuilder(city:String,country:String):AddressBuilder&#xa;+ setCountry(country:String):AddressBuilder&#xa;+setCity(city:String):AddressBuilder&#xa;+ setPostalcode(postalcode:String):AddressBuilder&#xa;+setAddress(address:String):AddressBuilder&#xa;+ build():Address&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="jwYuk6uSL-QfzdL34a9w-9">
-          <mxGeometry y="130" width="350" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="jwYuk6uSL-QfzdL34a9w-14" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=-0.007;exitY=0.075;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="jwYuk6uSL-QfzdL34a9w-8" target="jwYuk6uSL-QfzdL34a9w-12" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="jwYuk6uSL-QfzdL34a9w-14" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=-0.007;exitY=0.075;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="jwYuk6uSL-QfzdL34a9w-12" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="300" y="-690" as="sourcePoint" />
+            <mxPoint x="458.03999999999996" y="-674" as="sourcePoint" />
             <mxPoint x="370" y="-660" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tRH-e0MG6XzU9dK8XGzT-1" value="CSVCart" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="-410" width="280" height="340" as="geometry">
+            <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tRH-e0MG6XzU9dK8XGzT-2" value="&lt;span style=&quot;text-align: left&quot;&gt;- name: String&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;- description:String&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;- quantity: int&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;- price: double&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;- size: double&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;- salesprice: double&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;+ getName():String&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;+ getDescription():String&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;+ getQuantity():int&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;+ getPrice():double&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;+ getSize():double&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;+getSalePrice():double&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;+Item(builder:ItemBuilder):Item&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="tRH-e0MG6XzU9dK8XGzT-1">
+          <mxGeometry y="26" width="280" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
