@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T17:25:13.174Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Mri_n_3xe56YwJSCfN8m" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-13T17:31:55.405Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="7ReisBCW9oyh8bevDocw" version="18.0.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2013" dy="1855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1592" dy="1612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -707,6 +707,12 @@
             <mxPoint x="1170" y="760" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ue2LvvzvusNxh0ZIiHe4-0" value="&lt;h1&gt;Note:&lt;/h1&gt;&lt;p&gt;Assumptions: Java GUI with MVC pattern. Therefore any additional classes where appropriate must satisfy the following:&lt;/p&gt;&lt;p&gt;- Views must extend JFrame but no need to add methods or attributes as that can be looked up.&amp;nbsp;&lt;/p&gt;&lt;p&gt;- EventListener classes must implement ActionListener&lt;/p&gt;&lt;p&gt;Lastly, any changes to remove something can please add your change next to the one to be removed so that it can be discussed as a team&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="-350" width="510" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ue2LvvzvusNxh0ZIiHe4-1" value="&lt;h1&gt;Case Study explanation&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="720" y="-350" width="390" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
