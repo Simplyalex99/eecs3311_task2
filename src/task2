@@ -1,48 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T17:24:47.379Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="s_L2F69fIito1uyGv2d4" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-13T17:25:13.174Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Mri_n_3xe56YwJSCfN8m" version="18.0.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2013" dy="1855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="RxYSvr7383zTZz8IJZvX-0" value="UserProfiles: Admin,Customer,Manager 4.2" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-480" y="218.89" width="80" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="RxYSvr7383zTZz8IJZvX-1" value="Login 4.1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-453" y="376" width="80" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="RxYSvr7383zTZz8IJZvX-3" value="Item" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-270" y="350" width="80" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="RxYSvr7383zTZz8IJZvX-4" value="Store" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-100" y="48" width="80" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="RxYSvr7383zTZz8IJZvX-5" value="Form 4.4.1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-180" y="230" width="80" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="RxYSvr7383zTZz8IJZvX-6" value="Searchbar 4.4.2" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-130" y="114.88999999999999" width="80" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="RxYSvr7383zTZz8IJZvX-7" value="Shopping Cart 4.4.3" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-170" y="70" width="80" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="RxYSvr7383zTZz8IJZvX-8" value="Abstract Thing 4.4.4 related to Store and Cart 1:1 relationship" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-550" y="60" width="380" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="RxYSvr7383zTZz8IJZvX-9" value="RegisterForm" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-240" y="256" width="80" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="RxYSvr7383zTZz8IJZvX-10" value="FillForm" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-140" y="192.89" width="80" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="RxYSvr7383zTZz8IJZvX-11" value="AuthForm" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-170" y="30" width="80" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="RxYSvr7383zTZz8IJZvX-12" value="Search Item Methods" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-140" y="166.89" width="80" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="RxYSvr7383zTZz8IJZvX-13" value="StoreView" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-240" y="140.89" width="80" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="CFtE5VJMsNvBke-7EWXm-4" value="StoreModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="990" y="1406" width="160" height="86" as="geometry" />
         </mxCell>
