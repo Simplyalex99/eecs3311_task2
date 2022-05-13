@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T17:45:40.403Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="1S3Q62Ca8PjQb4w7Zj4F" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-13T17:47:43.394Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="l3jpX7KxFjMZKa_-dLX5" version="18.0.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1706" dy="1677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2310" dy="2027" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -714,8 +714,8 @@
         <mxCell id="ue2LvvzvusNxh0ZIiHe4-1" value="&lt;h1&gt;Case Study explanation&lt;/h1&gt;&lt;p&gt;Starting from requirement 4.1: User Auth/registration is done in the LoginController and Register classes, which will be the first thing users see when launching the app. Since we are following MVC pattern, there is no Login Model, instead that will be the DBSingleton which acts as the middleware to communicate with Data base (DB),&lt;/p&gt;&lt;p&gt;Requirement 4.2 UserProfile: Currently still be developed but using Builder Pattern to prevent multiple parameter constructions during runtime and accommodates for different kind of users, Also Address is added there.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;requirement 4.3 Human resource: Currently still being developed. Right now, UserControllerFactory accommodates for this by allowing admins to have their own interface and managers.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;requirement 4.4 Online Store Look up: The CustomerViewFactory accommodates for this by allowing the app or client to decide which view or UI to use if they have a store preference saved or not which will direct them to Home page to find nearby stores&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="733" y="-350" width="640" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="ue2LvvzvusNxh0ZIiHe4-2" value="draft work for Store and Item requirements" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1170" y="1215" width="60" height="30" as="geometry" />
+        <mxCell id="ue2LvvzvusNxh0ZIiHe4-2" value="old draft work for Store and Item requirements" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1170" y="1215" width="140" height="125" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
