@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-14T12:29:31.281Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="BwIIivH9yVG6DpFskso1" version="18.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-14T12:31:15.113Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="wa48vOKTgGrLRn3Ce1-Q" version="18.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1858" dy="1766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1815" dy="1741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -571,7 +571,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jwEqTvR02FkG2kXTi8JX-13" value="To-do: Create different search clases that implement Search or create different&#xa;interfaces that extend Search for requirement 4.4.2" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1257.5" y="1030" width="335" height="60" as="geometry" />
+          <mxGeometry x="1300" y="1020" width="335" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jwEqTvR02FkG2kXTi8JX-18" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CRr01zfrjajyMJyQpO2l-0" edge="1">
           <mxGeometry x="-0.875" y="10" width="160" relative="1" as="geometry">
@@ -664,6 +664,19 @@
               <mxPoint x="-30" y="1045" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jwVWPnY_sI28MHIIRVT4-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="770" y="1030" as="sourcePoint" />
+            <mxPoint x="1180" y="980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="1240" />
+              <mxPoint x="1180" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jwVWPnY_sI28MHIIRVT4-14" value="Instantiates&#xa;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="940" y="1220" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
