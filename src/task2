@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-15T12:23:49.497Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="3Qb8VGQcr5ZJbVcq8HV5" version="18.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-15T12:27:59.904Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="eMrLylMcm7ZiwOtf4dSZ" version="18.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2182" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="ue2LvvzvusNxh0ZIiHe4-0" value="&lt;h1&gt;Note:&lt;/h1&gt;&lt;p&gt;Assumptions: Java GUI with MVC pattern. Therefore any additional classes where appropriate must satisfy the following:&lt;/p&gt;&lt;p&gt;- Views must extend JFrame but no need to add methods or attributes as that can be looked up.&amp;nbsp;&lt;/p&gt;&lt;p&gt;- EventListener classes must implement ActionListener&lt;/p&gt;&lt;p&gt;Lastly, any changes to remove something can please add your change next to the one to be removed so that it can be discussed as a team.&lt;/p&gt;&lt;p&gt;However, if adding additional classes then can just add them&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40" y="590" width="520" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="ue2LvvzvusNxh0ZIiHe4-1" value="&lt;h1&gt;Case Study explanation&lt;/h1&gt;&lt;p&gt;Starting from requirement 4.1: User Auth/registration is done in the LoginController and Register classes, which will be the first thing users see when launching the app. Since we are following MVC pattern, there is no Login Model, instead that will be the DBSingleton which acts as the middleware to communicate with Data base (DB),&lt;/p&gt;&lt;p&gt;Requirement 4.2 UserProfile: Currently still be developed but using Builder Pattern to prevent multiple parameter constructions during runtime and accommodates for different kind of users, Also Address is added there.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;requirement 4.3 Human resource: Currently still being developed. Right now, UserControllerFactory accommodates for this by allowing admins to have their own interface and managers.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;requirement 4.4 Online Store Look up: The CustomerViewFactory accommodates for this by allowing the app or client to decide which view or UI to use if they have a store preference saved or not which will direct them to Home page to find nearby stores&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="ue2LvvzvusNxh0ZIiHe4-1" value="&lt;h1&gt;Case Study explanation&lt;/h1&gt;&lt;p&gt;Starting from requirement 4.1: User Auth/registration is done in the LoginController and Register classes, which will be the first thing users see when launching the app. Since we are following MVC pattern, there is no Login Model, instead that will be the DBSingleton which acts as the middleware to communicate with Data base (DB),&lt;/p&gt;&lt;p&gt;Requirement 4.2 UserProfile: Currently still be developed but using Builder Pattern to prevent multiple parameter constructions during runtime and accommodates for different kind of users, Also Address is added there.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;requirement 4.3 Human resource: Currently still being developed. Right now, UserControllerFactory accommodates for this by allowing admins to have their own interface and managers.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;requirement 4.4 Online Store Look up: The CustomerViewFactory accommodates for this by allowing the app or client to decide which view or UI to use if they have a store preference saved or not which will direct them to Home page to find nearby stores&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;requirement 4.4.2 different Search options accommodated by the Search interface and sub classes&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="620" y="586" width="640" height="270" as="geometry" />
         </mxCell>
         <mxCell id="jwEqTvR02FkG2kXTi8JX-1" value="Object" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -27,9 +27,6 @@
             <mxPoint x="1430" y="1744" as="sourcePoint" />
             <mxPoint x="1430" y="1704" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="jwEqTvR02FkG2kXTi8JX-13" value="To-do: Create different search clases that implement Search or create different&#xa;interfaces that extend Search for requirement 4.4.2" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="405" y="2290" width="335" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jwEqTvR02FkG2kXTi8JX-19" value="SearchBar" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1540" y="2164" width="160" height="86" as="geometry" />
@@ -829,7 +826,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="LKEwFHSLTftz_znw272G-4" value="SearchByItemCategory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="640" y="2413" width="160" height="86" as="geometry" />
+          <mxGeometry x="700" y="2413" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="LKEwFHSLTftz_znw272G-5" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LKEwFHSLTftz_znw272G-4">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -851,6 +848,27 @@
         </mxCell>
         <mxCell id="LKEwFHSLTftz_znw272G-11" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LKEwFHSLTftz_znw272G-8">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LKEwFHSLTftz_znw272G-12" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.133;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.594;exitY=0.012;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LKEwFHSLTftz_znw272G-0" target="CepGgWDohpQLcRVbKrKp-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="520" y="2400" as="sourcePoint" />
+            <mxPoint x="610" y="2400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKEwFHSLTftz_znw272G-13" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.133;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.156;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LKEwFHSLTftz_znw272G-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="720" y="2413.002" as="sourcePoint" />
+            <mxPoint x="723.8454999999999" y="2290.946" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKEwFHSLTftz_znw272G-14" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.606;entryY=1.048;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="CepGgWDohpQLcRVbKrKp-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="590" y="2540" as="sourcePoint" />
+            <mxPoint x="750" y="2540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="2540" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
