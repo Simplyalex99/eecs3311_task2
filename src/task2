@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-20T18:15:24.636Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="L6UwpXa_fJPA_-e9VeIV" version="18.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-20T18:17:01.230Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="S_IT4s1KDq3AgPVaKCLO" version="18.0.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2055" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1663,7 +1663,7 @@
           <mxGeometry x="2760" y="3363" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dyISnQmAYKr3eWmRI4Yk-88" value="TwoFactorAuthServiceEventListener" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2800" y="3516" width="230" height="86" as="geometry" />
+          <mxGeometry x="2800" y="3516" width="230" height="140" as="geometry" />
         </mxCell>
         <mxCell id="dyISnQmAYKr3eWmRI4Yk-94" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.027;entryY=0.962;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dyISnQmAYKr3eWmRI4Yk-88" target="dyISnQmAYKr3eWmRI4Yk-68">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -1677,8 +1677,8 @@
         <mxCell id="dyISnQmAYKr3eWmRI4Yk-90" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="dyISnQmAYKr3eWmRI4Yk-88">
           <mxGeometry y="52" width="230" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="dyISnQmAYKr3eWmRI4Yk-91" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dyISnQmAYKr3eWmRI4Yk-88">
-          <mxGeometry y="60" width="230" height="26" as="geometry" />
+        <mxCell id="dyISnQmAYKr3eWmRI4Yk-91" value="+ TwoFactorAuthServiceEventListener(&#xa;stragety:TwoFactorAuthStragety)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dyISnQmAYKr3eWmRI4Yk-88">
+          <mxGeometry y="60" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dyISnQmAYKr3eWmRI4Yk-93" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.504;exitY=1.069;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.59;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dyISnQmAYKr3eWmRI4Yk-64" target="dyISnQmAYKr3eWmRI4Yk-88">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -1689,10 +1689,10 @@
         <mxCell id="dyISnQmAYKr3eWmRI4Yk-95" value="Instantiates" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="3030" y="3446" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dyISnQmAYKr3eWmRI4Yk-96" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=-0.005;entryY=0.545;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="dyISnQmAYKr3eWmRI4Yk-73">
+        <mxCell id="dyISnQmAYKr3eWmRI4Yk-97" value="Depends on" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dyISnQmAYKr3eWmRI4Yk-91" target="dyISnQmAYKr3eWmRI4Yk-73">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="2960" y="3600" as="sourcePoint" />
-            <mxPoint x="3120" y="3600" as="targetPoint" />
+            <mxPoint x="2970" y="3655.57" as="sourcePoint" />
+            <mxPoint x="3130" y="3655.57" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
