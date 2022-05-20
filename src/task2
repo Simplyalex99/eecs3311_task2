@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-20T21:22:49.942Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="7KcvywGkADMmB0P8wf4n" version="18.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-20T21:23:32.333Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="IjdvEMNXYpICDNlUdnNW" version="18.0.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2094" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1743,7 +1743,7 @@
         <mxCell id="d9myYyxZruhwRVYTVJ3X-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="d9myYyxZruhwRVYTVJ3X-0">
           <mxGeometry y="52" width="180" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="d9myYyxZruhwRVYTVJ3X-3" value="+ TwoFa..(profile:UserProfileBuilder,&#xa;userControllerType:UserType):&#xa;TwoFactorAuthController&#xa; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="d9myYyxZruhwRVYTVJ3X-0">
+        <mxCell id="d9myYyxZruhwRVYTVJ3X-3" value="+ TwoFa..(profile:UserProfileBuilder,&#xa;userControllerType:UserType,&#xa;stragerty:TwoFactorAuth&#xa;Stragety):&#xa;TwoFactorAuthController&#xa; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="d9myYyxZruhwRVYTVJ3X-0">
           <mxGeometry y="60" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d9myYyxZruhwRVYTVJ3X-4" value="Contains" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -1790,6 +1790,12 @@
         </mxCell>
         <mxCell id="d9myYyxZruhwRVYTVJ3X-24" value="+ build(method:&#xa;String): TwoFactorAuthStragety" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="d9myYyxZruhwRVYTVJ3X-21">
           <mxGeometry y="60" width="240" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="d9myYyxZruhwRVYTVJ3X-25" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.885;entryY=1.063;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.012;exitY=0.049;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jwVWPnY_sI28MHIIRVT4-59" target="d9myYyxZruhwRVYTVJ3X-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-390" y="1770" as="sourcePoint" />
+            <mxPoint x="-230" y="1770" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
