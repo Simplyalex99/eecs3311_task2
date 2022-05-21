@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-21T22:24:17.888Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="8bCf8WFEF6LA19UtWc_r" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-21T23:12:18.733Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="2jAstOoC7Ggi1iTEqMKP" version="18.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2235" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,16 +60,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jwVWPnY_sI28MHIIRVT4-16" value="MiddlewareSingleton" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-165" y="2620" width="230" height="288" as="geometry" />
+          <mxGeometry x="-165" y="2620" width="220" height="368" as="geometry" />
         </mxCell>
-        <mxCell id="jwVWPnY_sI28MHIIRVT4-17" value="- instance: MiddlewareSingleton&#xa;- connection:SQLConnection" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jwVWPnY_sI28MHIIRVT4-16" vertex="1">
-          <mxGeometry y="26" width="230" height="44" as="geometry" />
+        <mxCell id="jwVWPnY_sI28MHIIRVT4-17" value="- instance: MiddlewareSingleton&#xa;- connection:SQLConnection&#xa;- username:String&#xa;- password:String&#xa;- databaseURL:String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jwVWPnY_sI28MHIIRVT4-16" vertex="1">
+          <mxGeometry y="26" width="220" height="124" as="geometry" />
         </mxCell>
         <mxCell id="jwVWPnY_sI28MHIIRVT4-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="jwVWPnY_sI28MHIIRVT4-16" vertex="1">
-          <mxGeometry y="70" width="230" height="8" as="geometry" />
+          <mxGeometry y="150" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="jwVWPnY_sI28MHIIRVT4-19" value="- MiddlewareSingleton()&#xa;+ getInstance(): MiddlewareSingleton&#xa;+ setConnection(&#xa;database:String,username:String&#xa;,password:String):void&#xa;+getAuthRoute():AuthRoute&#xa;+getUserProfileRoute():UserProfileRoute&#xa;+getStoreRoute():StoreRoute&#xa;+getItemRoute():ItemRoute" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jwVWPnY_sI28MHIIRVT4-16" vertex="1">
-          <mxGeometry y="78" width="230" height="210" as="geometry" />
+        <mxCell id="jwVWPnY_sI28MHIIRVT4-19" value="- MiddlewareSingleton()&#xa;+ getInstance(): MiddlewareSingleton&#xa;+ setConnection():void&#xa;+getAuthRoute():AuthRoute&#xa;+getUserProfileRoute():UserProfileRoute&#xa;+getStoreRoute():StoreRoute&#xa;+getItemRoute():ItemRoute" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jwVWPnY_sI28MHIIRVT4-16" vertex="1">
+          <mxGeometry y="158" width="220" height="210" as="geometry" />
         </mxCell>
         <mxCell id="jwVWPnY_sI28MHIIRVT4-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;&lt;i&gt;CustomerViewFactory&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field1: Type&lt;br&gt;+ field2: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;i&gt;displayView(): void&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;i&gt;+ initialize():void&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;i&gt;+hideView():void&lt;br&gt;&lt;/i&gt;+BuildViewFactory(viewType:ViewType&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;request:Request):&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;CustomerViewFactory&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="544" y="1690" width="230" height="175" as="geometry" />
