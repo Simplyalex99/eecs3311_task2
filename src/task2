@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-21T15:07:14.331Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="A5J0IhXiGn1JSwWIbyLu" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-21T15:30:23.723Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="9h8cYHH4_BacFi-vTgV6" version="18.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2055" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1814" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -68,7 +68,7 @@
         <mxCell id="jwVWPnY_sI28MHIIRVT4-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="jwVWPnY_sI28MHIIRVT4-16" vertex="1">
           <mxGeometry y="52" width="230" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="jwVWPnY_sI28MHIIRVT4-19" value="- DBConnectionSingleton()&#xa;+ getInstance(): DBConnectionSingleton&#xa;+ isValidUser(username:String,&#xa;password:String):boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jwVWPnY_sI28MHIIRVT4-16" vertex="1">
+        <mxCell id="jwVWPnY_sI28MHIIRVT4-19" value="- DBConnectionSingleton()&#xa;+ getInstance(): DBConnectionSingleton&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jwVWPnY_sI28MHIIRVT4-16" vertex="1">
           <mxGeometry y="60" width="230" height="420" as="geometry" />
         </mxCell>
         <mxCell id="jwVWPnY_sI28MHIIRVT4-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;&lt;i&gt;CustomerViewFactory&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field1: Type&lt;br&gt;+ field2: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;i&gt;displayView(): void&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;i&gt;+ initialize():void&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;i&gt;+hideView():void&lt;br&gt;&lt;/i&gt;+BuildViewFactory(viewType:ViewType&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;request:Request):&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;CustomerViewFactory&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -1964,6 +1964,9 @@
             <mxPoint x="60" y="3090" as="sourcePoint" />
             <mxPoint x="220" y="3090" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="x_4bcCigfUoUDhCY5YxB-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Enum&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ROUTES&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AUTH(route:Route): Routes&lt;br&gt;+ PROFILE(route:Route): Routes&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ STORE(route:Route): Routes&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ITEM(route:Route): Routes&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- route: Route&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Routes(route:Route): Routes&lt;br&gt;+ getRoute(): Route&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-840" y="2750" width="190" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
